@@ -16,9 +16,16 @@ Originally, it was requested that dependencies be resolved from JCenter. However
 
 ### Running the Docker Image
 
-Once the Docker image is pushed to artifactory, we can run it with the command:
+Once the Docker image is pushed to artifactory, we can run it locally with the command:
 
 ```bash
 docker run -p 8081:8080 jftest2.jfrog.io/jftest2-docker/spring-petclinic:<IMAGE_TAG>
 
-Replace <IMAGE_TAG> with the actual image tag (The latest image tag is 28)
+Replace <IMAGE_TAG> with the actual image tag (The latest image tag is 3)
+
+Once the Docker container is running, we can access the Spring PetClinic app on our browser with URL:
+
+http://localhost:8081
+
+This will bring up the Spring PetClinic homepage. 
+
