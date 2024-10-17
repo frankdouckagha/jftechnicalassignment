@@ -17,7 +17,7 @@ pipeline {
     stages {
         stage('Source Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/frank241/pet-clinic.git'
+                git branch: 'main', url: 'https://github.com/frankdouckagha/jftechnicalassignment.git'
             }
         }
 
